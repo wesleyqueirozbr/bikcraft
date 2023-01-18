@@ -1,14 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 600px;
     color: #111;
 }
 ul {
     padding: 0;
     list-style: none;
 }
-h1,h2,h3,h5,ul,p{
+h1,h2,h3,h5,ul,p,blockquote{
     margin: 0;
 }
 a {
