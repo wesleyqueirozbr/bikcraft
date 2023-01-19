@@ -21,5 +21,9 @@
 @import url("./bicicletas/bicicletas-lista.css");
 @import url("./bicicletas/bicicletas.css");
 
+/* BICICLETA */
+@import url("./bicicleta/bicicleta.css");
+@import url("./bicicleta/seguro.css");
+
 /* TERMOS */
 @import url("./termos/termos.css");
