@@ -28,7 +28,7 @@ function clickPerguntas(element) {
     let idElement = pergunta.getAttribute("aria-controls")
     let resposta = document.getElementById(idElement)
     const ativaCheck = resposta.classList.contains("ativa")
-    pergunta.setAttribute("aria-expanded",ativa)
+    pergunta.setAttribute("aria-expanded",ativaCheck)
     resposta.classList.toggle("ativa")
 }
 
