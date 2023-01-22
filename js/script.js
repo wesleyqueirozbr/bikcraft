@@ -51,3 +51,9 @@ function eventosGaleria(event) {
     event.addEventListener("click",trocarImagem)
 }
 galeria.forEach(eventosGaleria)
+
+// ANIMAÇÃO
+
+if (window.SimpleAnime) {
+    new SimpleAnime();
+}
